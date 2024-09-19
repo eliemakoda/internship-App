@@ -1,0 +1,584 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 01/02/2023.
+    Theme Name   : Khoj- The job Finder Multipurpose Bootstrap 5 Template
+    Version      : 1.0.
+    Developed by : (sayfurrahaman265@gmail.com).
+   
+*/
+@media (min-width: 992px) {
+  .main-page-wrapper{overflow: hidden;}
+  .container {padding-right: 0;padding-left: 0;}
+  .navbar-nav .nav-item{padding-right: 10px;}
+  .navbar-nav .nav-item{padding-right:15px;}
+  .theme-main-menu .navbar{font-size: 15px;}
+  .navbar-expand-lg .navbar-nav .nav-link{padding-right:0.8rem;padding-left:0;}
+}
+/*(min-width: 992px)*/
+
+@media (min-width: 1200px) {
+.navbar-nav .nav-item{padding-right:30px;}
+  .theme-main-menu .navbar{font-size: 18px;}
+}
+/*(min-width: 1200px)*/
+@media (min-width: 1400px) {
+}
+/*(min-width: 1400px)*/
+
+/*Grid xl Start*/
+@media (max-width: 1399.98px) {
+  .ctg-1, .ctg-2, .ctg-3, .ctg-4{min-width: 270px;}
+  .left-about .pic2{left:0;}
+  .job-1{min-width: 365px;}
+  .job-title h3{font-size: 20px;}
+  .job-sallary span strong{font-size: 18px;}
+  .job-type span{font-size: 15px;}
+  .job-ctg1{min-width: 270px;}
+  .right-side .ctg-heading{font-size: 16px;}
+   .our_video_rapper .video-top h5{font-size: 35px;}
+   .our_video_rapper .video-icon a{left: 34%;}
+   .our_team .team-heading h3{font-size: 55px;line-height: 50px;}
+   .job-grid-heading .right-grid span{font-size: 20px;}
+   .job-grid-heading .left-grid span{font-size: 20px;}
+   .job-details-right .job-list-details .btn-group .btn{font-size: 16px;}
+   .Candidates-grid .top-grid-1 h3{font-size: 20px;}
+   .Candidates-grid .top-grid-2 span, .Candidates-grid .top-grid-3 span{font-size: 12px;}
+   .Candidates-grid .top-grid-1 strong{font-size: 16px;}
+   .Candidate-list .Candidate-list-1{padding: 20px;}
+   .Candidate-list .Candidate-list-1 .Candidate-name h4{font-size: 20px;}
+   .Candidate-list .Candidate-list-1 .Candidate-name span strong,
+   .Candidate-list .Candidate-list-1 .Candidate-place span,
+   .Candidate-list .Candidate-list-1 .Candidate-name span{font-size: 13px;}
+   .Candidate-list .Candidate-list-1 .Candidate-contact a{padding: 15px 20px;font-size: 13px;}
+   .candidates-details-left .Profile-name h4{font-size: 20px;}
+   .candidates-details-left .left-1 span{font-size: 18px;}
+   .candidates-details-left .social-link ul li a i{font-size: 18px;}
+    .candidates-details-right .candidate-list-5 h4,
+   .candidates-details-right .candidate-list-3 h4,
+   .candidates-details-right .candidate-list-2 h4,
+   .candidates-details-right .Candidate-name h4{font-size: 20px;}
+   .candidates-details-right{margin-left: 80px;}
+   .candidates-details-right .candidate-list-1{padding: 20px;}
+   .candidates-details-right .candidate-place span{font-size: 13px;}
+   .timeline .event p,
+   .candidates-details-right .candidate-list-2 p{font-size: 15px;line-height: 28px;}
+   .candidates-details-right .Candidate-contact a{font-size: 14px;padding: 10px 20px;}
+   .blog-main-content .card-body h6{    font-size: 24px;line-height: 37px;}
+   .bottom-touch span{font-size: 20px;}
+   .single-blog-left .left-3{flex-direction: column;}
+   .single-blog-right .right-3 h6{font-size: 14px;}
+   .single-blog-left .left-1 p{font-size: 14px;}
+   .single-blog-left .left-6 .comments-1 p{font-size: 14px;}
+
+}
+
+/*(max-width: 1399px)*/
+/*Between Grid xl*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .left-wiget {margin-left: 50px;}
+  p{font-size: 15px;}
+  .banner-one .hero-heading{font-size: 63px;}
+  h3.heading{font-size: 35px;}
+  .right-about .heading-2{font-size: 35px;}
+  .right_banner .banner-img2{right: 0;}
+  .ctg-1, .ctg-2, .ctg-3, .ctg-4{min-width: 270px;}
+  .left-about .pic2{left:0;}
+  .job-1{min-width: 365px;}
+  .job-title h3{font-size: 20px;}
+  .job-sallary span strong{font-size: 18px;}
+  .job-type span{font-size: 15px;}
+  .feature-job-title .heading-2{font-size: 35px;}
+  .choose-us-heading h2{font-size: 35px;line-height: 48px;}
+  .testimonial-rapper .heding-center h2{font-size: 35px;line-height: 48px;}
+  #testimonial_slider{left:0;}
+  .apps_content h2{font-size: 35px;line-height: 48px;}
+  .customer_content h2{font-size: 35px;line-height: 48px;}
+  .subscriber-content-left h2{font-size: 35px;line-height: 48px;}
+  .banner-three-rapper h1{font-size: 58px;line-height: 82px;}
+  .right-side .ctg-heading{font-size: 15px;}
+  .job-ctg1{min-width: 220px;}
+  .right-side .ctg-heading{font-size:13px;}
+  .right-side .ctg-details{font-size:15px;padding: 0;}
+  .staticties .statistics-1 .top{font-size: 58px;}
+  .why-choose-us-three .choose-us-heading ul li a{font-size: 19px;}
+  .testimonial-slider-Three .item-rapper .item3 .right-side h5{ font-size: 19px;}
+  .dream-job2 .text-center .heading-text3{font-size: 35px;line-height: 50px;}
+  .join-Company .right-side .item2 h3{    font-size: 35px;line-height: 50px;}
+  .home-blog-three .blog-heading h3{font-size: 35px;line-height: 50px;}
+  .blog-main-content .card-body h6{font-size: 24px;line-height: 37px;}
+  .bottom-touch span{font-size: 20px;}
+}
+/*(min-width: 1200px) and (max-width: 1399px)*/
+/*Grid lg Start*/
+@media (max-width: 1199.98px) {
+  .navbar-nav .nav-item{padding-right:15px;}
+  .left-wiget {margin-left:0px;}
+  .job-1 {min-width: 310px;padding: 20px 20px;}
+  .job-type span{padding-right:5px;}
+  p{font-size: 15px;}
+  .banner-one .hero-heading{font-size: 45px;line-height: 60px;}
+  h3.heading{font-size: 35px;}
+  .left-about .pic3{top:0;}
+  .left-about .pic4{bottom: 0;}
+  .right-about .heading-2{font-size: 35px;line-height: 48px;padding-bottom:0px;}
+  .right-about p{padding-bottom:5px;}
+  .banner-one form::after{display:none;}
+  .right_banner .banner-img2{right: 0;}
+  .ctg-1, .ctg-2, .ctg-3, .ctg-4 {margin-bottom: 20px;}
+  .left-about .pic2{left:0;}
+  .job-title h3{font-size: 20px;}
+  .job-sallary a{padding: 10px 20px;}
+  .job-sallary span strong{font-size: 18px;}
+  .job-type span{font-size: 15px;}
+  .feature-job-title .heading-2{font-size: 35px;line-height: 35px;}
+  .choose-us-heading h2{font-size: 35px;line-height: 48px;}
+  .testimonial-rapper .heding-center h2{font-size: 35px;line-height: 48px;}
+  #testimonial_slider{padding-left: 0;}
+  .apps_content h2{font-size: 35px;line-height: 48px;}
+  .customer_content h2{font-size: 25px;line-height: 40px;}
+  .subscriber-content-left h2{font-size: 35px;line-height: 48px;}
+  .dream-job2 .text-center .heading-text3{font-size: 35px;line-height: 50px;}
+  h2.heading-2{font-size: 35px;line-height: 50px;}
+  .left-choose-content .accordion-button{font-size: 20px;}
+  .about-us-rapper .right-about-two h2.heading-2>.big{font-size: 35px;}
+  #testimonial_slider-two .bi-chevron-left{left: 40%;}
+  #testimonial_slider-two .bi-chevron-right{right: 45%;}
+  .job-ctg1{min-width: 220px;}
+  .right-side .ctg-heading{font-size:13px;}
+  .right-side .ctg-details{font-size:15px;padding: 0;}
+  .why-choose-us-three .choose-us-heading ul li a{font-size: 19px;}
+  .testimonial-slider-Three .item-rapper .item3 .right-side h5{ font-size: 19px;}
+  .dream-job2 .text-center .heading-text3{font-size: 35px;line-height: 50px;}
+  .join-Company .right-side .item2 h3{    font-size: 35px;line-height: 50px;}
+  .home-blog-three .blog-heading h3{font-size: 35px;line-height: 50px;}
+  .blog-main-content .card-body h6{font-size:19px;line-height: 30px;}
+  .testimonial-slider-Three .item-rapper .item2 p{font-size: 15px;line-height: 26px;}
+  .testimonial-slider-Three .item-rapper .item3 .right-side span{font-size: 15px;}
+  .our_video_rapper .video-top h5{font-size: 35px;}
+  .our_video_rapper .video-icon a{padding: 10px;top: 11%;left: 40%;}
+  .our_team .team-heading h3{font-size: 35px;line-height: 50px;}
+  .our_team_item .card-body h5{font-size: 19px;}
+  .job-details-left .left-1 span{font-size: 18px;}
+  .job-details-left .left-1 p{font-size: 16px;}
+  .job-details-right .job-list-1 h4{font-size: 20px;}
+  .job-details-right .job-list-1 span{font-size: 16px;}
+  .job-details-right .job-list-1 .list-company span{font-size: 20px;}
+  .job-details-right .job-list-details .btn-group .btn{padding: 10px 20px;font-size: 14px;}
+  .job-details-right .job-list-details h4{font-size: 20px;}
+  .Candidates-grid{padding: 20px 20px;}
+  .Candidate-list .Candidate-list-1 .Candidate-name h4{font-size: 16px;}
+  .Candidate-list .Candidate-list-1 .Candidate-place span{padding: 0 5px;}
+  .Candidate-list .Candidate-list-1 .Candidate-contact a {padding: 10px 20px;font-size: 12px;}
+  .candidates-details-left{min-width: 345px;padding: 32px 22px;}
+  .candidates-details-left .Profile-name small{font-size: 16px;}
+  .candidates-details-left .social-link ul li a{margin:3px;}
+  .candidates-details-left .save-candidate img{max-width: 110px;}
+  .candidates-details-right .Candidate-name span strong,
+  .candidates-details-left .save-candidate span{font-size: 13px;}
+  .candidates-details-right{margin-left: 35px;}
+  .Candidate-pic img {max-width: 85px;}
+  .candidates-details-right .candidate-list-5 h4,
+  .candidates-details-right .candidate-list-3 h4, 
+  .candidates-details-right .candidate-list-2 h4, 
+  .candidates-details-right .Candidate-name h4 {font-size: 16px;}
+  .candidates-details-right .Candidate-contact a {font-size: 14px;padding: 8px 16px;}
+  .timeline .event:before{font-size: 15px;}
+  .candidates-details-right .candidate-list-5 .btn{font-size: 14px;padding: 8px 11px;}
+  .candidates-details-right .candidate-list-6 a{font-size: 13px;padding: 10px 20px;}
+  .bottom-touch span{font-size: 15px;}
+  .contact-form .form-control{font-size: 16px;}
+  .contact-form .form-label{font-size: 14px;}
+  .single-blog-left .left-1 h3 {font-size: 35px;padding:0;}
+  .single-blog-right .right-3 h6{font-size: 15px;}
+  .single-blog-right .right-3 span{font-size: 15px;}
+  .single-blog-right .profile-name h4{font-size: 20px;}
+  .single-blog-right .profile-name span{font-size: 16px;}
+  .single-blog-right .profile-name p{font-size: 13px;}
+  .right-5 .btn-group{flex-direction: column;}
+}
+/*Between Grid lg*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .theme-main-menu{padding:54px 0;}
+  .left-about .pic3{top:0;}
+  .left-about .pic4{bottom: 0;}
+  .footer-one_2 ul li a{font-size: 15px;padding-bottom:5px;}
+}
+/*Grid md Start*/
+@media (max-width: 991.98px) {
+  .banner-three-rapper h1{font-size: 28px;line-height: 48px;}
+  h2{font-size: 24px;}
+  .btn-group{display: inline;}
+  .theme-main-menu{padding: 54px 28px;}
+  .container-fluid,.container{margin:auto;}
+  .banner-one form{max-width:100%;}
+  .job-1 {margin-bottom: 30px;max-width: 80%;margin: 15px auto;}
+  .ctg-1, .ctg-2, .ctg-3, .ctg-4 {margin-bottom: 40px;}
+  .left-choose-content .accordion-button:not(.collapsed)::after,
+  .left-choose-content .accordion-button::after{right: 30px;}
+  .footer-one_1{padding-bottom: 20px;}
+  .footer-one_2 h4{padding:0;margin-top:20px;}
+  .footer-one_2 ul li a{padding-bottom:15px;}
+  .copy-right h5{font-size: 14px;}
+  .right_banner .banner-img1{left: 0;}
+  #testimonial_slider-two .bi-chevron-right {right: 40%;}
+  .dreamitem-1{margin: auto;}
+  .dream-job2 .text-center .heading-text3{font-size: 25px;line-height: 50px;}
+  h2.heading-2{font-size: 25px;line-height: 50px;}
+  .left-choose-content .accordion-button{font-size: 20px;}
+  .about-us-rapper .right-about-two h2.heading-2>.big{font-size: 25px;}
+  h2.heading-2{font-size: 25px;line-height: 35px;}
+  .job-ctg1 {margin-bottom: 50px;}
+  .theme-three-category .row{padding: 0;margin: 0;}
+  .staticties .statistics-1 .top{font-size: 55px;}
+  .our_video_rapper .video-top h5{font-size: 25px;line-height: 40px;}
+  .our_team .team-heading h3{font-size: 25px;line-height: 38px;}
+  .job-grid-heading .right-grid .form-select{width: 30%;}
+  .banner-three-rapper .form-3{max-width: 740px;}
+   .single-blog-left .make-comment .form-control,
+  .contact-form .form-control{font-size: 16px;}
+  .contact-form .form-label{font-size: 14px;}
+  .get-touch .touch-1, .get-touch .touch-2, .get-touch .touch-3{margin: 20px auto;}
+  .single-blog-left .left-1 h3{font-size: 25px;line-height: 38px;}
+  .single-blog-left .left-1 h4,
+  .single-blog-left .make-comment h4,
+  .single-blog-left .left-6 .comments-1 h4{font-size: 20px;}
+  .blog-main-content .card{margin-bottom: 30px;}
+  .home-three-blog-item .card{margin: 15px auto;}
+  .list-company img{max-width: 25%;}
+  .job-social-link{flex-direction: column;margin:20px 0px;}
+  .job-social-link a{margin: 10px 10px;}
+  .single-blog-left .left-2 p{font-size:15px;line-height: 28px;}
+  .right-choose-content-three img:nth-child(3){display:none;}
+  .about-three-rapper h1{font-size: 45px;line-height: 60px;}
+  .about-us-banner .form-3:after{display:none;}
+
+}
+/*Between Grid md*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-one .hero-heading{font-size: 32px;}
+  h3.heading {font-size: 25px;}
+  .right-about .heading-2{font-size: 25px;}
+  .feature-job-title .heading-2 {font-size: 25px;padding-bottom: 0;}
+  .feature-job-title span{font-size: 15px;}
+  .choose-us-heading h2 {font-size: 25px;}
+  .choose-us-heading .span{font-size: 15px;}
+  .testimonial-rapper .heding-center h2 {font-size: 25px;line-height: 35px;}
+  .testimonial-rapper .heding-center span{font-size: 15px;}
+  #testimonial_slider i.bi-chevron-left{right: 70px;}
+  #testimonial_slider i.bi-chevron-right{right:0;}
+  .apps_content h2{font-size: 25px;}
+  .apps_content span{font-size: 15px;}
+  .customer_content h2 {font-size: 25px;line-height: 35px;}
+  .customer_content p{padding-bottom: 20px;}
+  .subscriber-content-left h2 {font-size: 25px;line-height: 35px;}
+  .dream-job2 .text-center .heading-text3{font-size: 25px;line-height: 35px;}
+  h2.heading-2{font-size: 25px;line-height: 50px;}
+  .left-choose-content .accordion-button{font-size: 20px;}
+  .about-us-rapper .right-about-two h2.heading-2>.big{font-size: 25px;}
+  h2.heading-2{font-size: 25px;line-height: 35px;}
+  .candidates-details-right .candidate-list-5 .btn{font-size: 12px;}
+
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+/*Grid sm Start*/
+@media (max-width: 767.98px) {
+  .banner-one .hero-heading{font-size: 32px;line-height: 45px;}
+  h3.heading {font-size: 25px;line-height: 3rem;}
+  .right-about .heading-2{font-size: 25px;line-height: 35px;}
+  .feature-job-title .heading-2 {font-size: 25px;padding-bottom: 0;}
+  .feature-job-title span{font-size: 15px;}
+  .choose-us-heading h2 {font-size: 25px;line-height: 35px;}
+  .choose-us-heading .span{font-size: 15px;}
+  .testimonial-rapper .heding-center h2 {font-size: 25px;line-height: 35px;}
+  .testimonial-rapper .heding-center span{font-size: 15px;}
+  #testimonial_slider i.bi-chevron-left{right: 70px;}
+  #testimonial_slider i.bi-chevron-right{right:0;}
+  .apps_content h2{font-size: 25px;line-height: 35px;}
+  .apps_content span{font-size: 15px;}
+  .customer_content h2 {font-size: 25px;line-height: 35px;}
+  .customer_content p{padding-bottom: 20px;width: 100%;}
+  .subscriber-content-left h2 {font-size: 25px;line-height: 35px;}
+  .about-us-rapper .right-about-two .small,
+  .dream-job2 .text-center .top-heading{font-size: 13px;}
+  .dream-job2 .text-center .heading-text3{font-size: 25px;line-height: 35px;}
+  h2.heading-2{font-size: 25px;line-height: 50px;}
+  .left-choose-content .accordion-button{font-size: 20px;}
+  .about-us-rapper .right-about-two h2.heading-2>.big{font-size: 25px;}
+  h2.heading-2{font-size: 25px;line-height: 35px;}
+  #testimonial_slider-two .bi-chevron-left{top: -45px;}
+  #testimonial_slider-two .bi-chevron-right {right: 35%;top: -45px;}
+  .banner-three-rapper .form-3 .location{padding:0;}
+  .banner-three-rapper .form-3 .placeholder{padding: 0;width: 35%;}
+  .staticties .statistics-1 .top{font-size: 45px;}
+  .our_video_rapper .video-top h5 {font-size: 22px;line-height: 30px;}
+  .our_video_rapper .video-top span{font-size: 13px;}
+  .our_video_rapper .video-icon a {padding: 0px;top: 25%;left: 50%;}
+  .our_team .team-heading h3{font-size: 25px;line-height: 38px;padding:0;}
+  .right-job-list .job-list-heading strong{font-size: 17px;margin: 20px;}
+  .right-job-list .job-list-1 .job-list-name h4{font-size: 20px;}
+  .right-job-list .job-list-1 .list-company span{font-size: 20px;}
+  .right-job-list .job-list-1 .job-list-name span{padding:0;}
+  .job-details-right .job-list-details .apply-btn{font-size: 10px;padding: 8px 16px;}
+  .job-details-right .job-list-details .btn-group .btn {padding: 10px 20px;font-size: 10px;}
+  .job-details-right .job-list-details .social-link{margin: 10px 10px;}
+  .job-details-right .job-list-1 span {font-size: 14px;}
+  .Candidate-list .Candidate-list-1 {padding: 20px;flex-direction: column;}
+  .Candidate-list .Candidate-list-1 .Candidate-name h4{font-size: 20px;padding: 10px 0;}
+  .Candidate-list .Candidate-list-1 .Candidate-name span{font-size: 16px;padding: 10px 0;}
+  .Candidate-list .Candidate-list-1 .Candidate-name span strong{font-size: 18px;}
+  .Candidate-list .Candidate-list-1 .Candidate-place span{padding: 10px;font-size: 16px;}
+  .Candidate-list .Candidate-list-1 .Candidate-contact a {padding: 20px 40px;font-size: 16px;margin-top: 20px;}
+  .candidates-details-right .candidate-list-5 .btn {font-size: 11px;padding: 7px 8px;}
+  .candidates-details-right .candidate-list-1{flex-direction: column;}
+  .contact-form .form-control{font-size: 13px;}
+  .contact-form .form-label{font-size: 13px;}
+  .timeline{padding: 0;margin: 0;right: 0;}
+  .timeline::before,
+  .timeline .event:after,
+  .timeline .event:before{display:none;}
+  .single-blog-left .left-6 .comments-1,
+  .single-blog-left .left-4{flex-direction: column;}
+  .right-choose-content {display: none;}
+    .theme-main-menu{padding: 8px 10px;}
+  .main-page-wrapper{overflow: hidden;}
+.right-wiget .sign-up .custom-btn {padding: 10px 10px;font-size: 13px;line-height: 20px;}
+  .banner-three-rapper .form-3 .location{padding:0;}
+  .why-choose-us-three .choose-us-heading ul li a {font-size: 16px;}
+  .staticties .statistics-1 .top{font-size: 35px;}
+  .banner-three-rapper .form-3 .button{padding: 0;}
+  .banner-three-rapper .form-3{font-size: 13px;}
+  .banner-three-rapper .form-3 .placeholder{width: 20%;}
+  .banner-three-rapper .form-3::after{left: 40%;height: 30px;}
+  .banner-three-rapper .form-3 .button a{font-size: 13px;padding: 15px;}
+  .job-grid-heading .right-grid .form-select{width: 50%;}
+  .candidates-details-right .candidate-list-5 .btn{padding: 5px 8px;}
+  .contact-form .form-control{font-size: 13px;}
+  .contact-form .form-label{font-size: 13px;}
+  .banner-one form .item_2,
+  .left_banner-two .bannerTwo-form .item_2{left:0;padding-left:20px;}
+  .banner-one form .item_1,
+  .banner-one form .item_1{display:none;}
+  .banner-one form::after,
+  .left_banner-two .bannerTwo-form::after{display:none;}
+  .banner-one form,
+  .left_banner-two .bannerTwo-form{font-size: 14px;height: 55px;}
+  .banner-one form .item_3,
+  .banner-one form .item_3 span,
+  .banner-one form .item_2 input[type="text"]{font-size: 13px;}
+  .left_banner-two .bannerTwo-form .item_4-button a{font-size: 13px;line-height: 17px;padding: 15px 20px;}
+   .banner-one form .item_4 a{padding: 0px 15px;line-height: 50px;}
+   .banner-one form .item_3 i{padding-right: 10px;}
+   .about-us-rapper .right-about-two .small, .dream-job2 .text-center .top-heading {font-size: 11px;}
+   .choose-us-heading .span{font-size: 11px;}
+   .subscriber-content-right form input{padding: 0;}
+   .subscriber-content-right form .custom_btn{padding: 12px 24px;font-size: 11px;}
+   .blog-main-content .card-body .blog-item1{font-size: 12px;}
+  .banner-one .hero-heading {font-size: 28px;line-height: 45px;}
+.nice-select{padding: 0;margin: 0;font-size: 13px;}
+.right-about .heading-2 {font-size: 21px;}
+.right-about p{font-size: 14px; line-height: 25px;}
+.choose-us-heading p{font-size: 14px; line-height: 25px;}
+.right-choose-content{display: none;}
+.testimonial-rapper,.testimonial-content{background: none;}
+.testimonial-item-inner .name h4{font-size: 16px;}
+.testimonial-item-inner .details p,
+.apps_content-left p,
+.footer-one_1 p,
+.customer_content p,
+.banner-three-rapper p,
+.join-Company .right-side .item1 span,
+.banner-two-rapper p,
+.join-Company .right-side .item3 p,
+.left-choose-content .accordion-body,
+.left-choose-content .accordion-button::after,
+.left-choose-content .accordion-button:not(.collapsed)::after,
+.testimonial-item-inner .designation h5{font-size: 14px; line-height: 25px;}
+.apps_content-left span{font-size: 13px;}
+.apps_content-left h2{font-size: 25px;line-height: 38px;}
+.customer_content h2{width: 100%;}
+.footer-one_2 h4{font-size: 18px;}
+.footer-one_2 ul li a{padding-bottom: 15px;}
+.banner-three-rapper .form-3 .location,
+.banner-three-rapper .form-3::after,
+.left_banner-two .bannerTwo-form .item_3-location{display: none!important;}
+.left_banner-two .bannerTwo-form .item_2{width:56%;}
+.dream-job2 .text-center .heading-text3{min-width: 100%;}
+.left-choose-content .accordion-button,
+.about-us-rapper .right-about-two p:nth-child(4),
+.about-us-rapper .right-about-two p:nth-child(3){font-size: 14px;line-height: 30px;}
+#testimonial_slider-two .bi-chevron-right{right: 20%;}
+.banner-two-rapper{padding: 0;}
+.banner-three-rapper .form-3 .placeholder{width: 40%;}
+.join-Company .right-side .item2 h3,
+.home-blog-three .blog-heading h3{font-size: 25px;line-height: 28px;}
+button.item1{font-size: 18px;line-height: 3rem;}
+#collapse1, #collapse2, #collapse3{font-size: 14px;}
+.testimonial-slider-Three .item-rapper .item3 .right-side span,
+.testimonial-slider-Three .item-rapper .item3 .right-side h5{font-size: 13px;}
+.dreamitem-1 a{font-size: 15px;}
+.blog-main-content .card-body h6{ font-size: 15px;line-height: 27px;}
+.left-about .pic1{max-width: 100%;}
+.choose-us-heading ul li a{font-size: 13px;}
+.footer-one_2 ul li a{font-size: 15px;}
+#our_team_slider i.bi-chevron-right,#our_team_slider i.bi-chevron-left{top: -77px;}
+.span-one,.span-two,.span-three{font-size:15px;}
+.left-list .job-range strong,
+.left-list .experience strong,
+.feature-job-list-rapper .left-list .job-type span{font-size: 20px}
+.list-company img{max-width: 30%;}
+.job-list-heading,
+.job-list-name{flex-direction: column;}
+.right-job-list .job-list-1 .job-list-name h4{
+  padding-top: 20px;}
+.right-job-list .job-list-1 .job-list-name span{padding: 10px;}
+ .job-list-name .job-apply{padding-top: 20px;}
+ .job-details-right .job-list-details ul li,
+ .job-details-right .job-list-details p{font-size: 15px;line-height: 25px;}
+ #recent-job-slider .recent-job-item{margin:0;box-shadow:none;}
+ .candidates-details-right .Candidate-contact a{margin-top:20px;}
+ .right-choose-content-three img:nth-child(3){display:none;}
+}
+/*(max-width: 767px)*/
+
+/*Between Grid sm*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner-three-rapper .form-3 .location{padding:0;}
+    .banner-three-rapper .form-3 .placeholder{width: 35%;}
+    .candidates-details-right .Candidate-contact a{margin-top:20px;}
+
+}
+/*(min-width: 576px) and (max-width: 767px)*/
+
+/*Extra Small breakpoints*/
+@media (max-width: 575.98px) {
+  .theme-main-menu{padding: 8px 10px;}
+  .main-page-wrapper{overflow: hidden;}
+.right-wiget .sign-up .custom-btn {padding: 10px 10px;font-size: 13px;line-height: 20px;}
+  .banner-three-rapper .form-3 .location{padding:0;}
+  .why-choose-us-three .choose-us-heading ul li a {font-size: 16px;}
+  .staticties .statistics-1 .top{font-size: 35px;}
+  .banner-three-rapper .form-3 .button{padding: 0;}
+  .banner-three-rapper .form-3{font-size: 13px;}
+  .banner-three-rapper .form-3 .placeholder{width: 20%;}
+  .banner-three-rapper .form-3::after{left: 40%;height: 30px;}
+  .banner-three-rapper .form-3 .button a{font-size: 13px;padding: 15px;}
+  .job-grid-heading .right-grid .form-select{width: 50%;}
+  .candidates-details-right .candidate-list-5 .btn{padding: 5px 8px;}
+  .contact-form .form-control{font-size: 13px;}
+  .contact-form .form-label{font-size: 13px;}
+  .banner-one form .item_2,
+  .left_banner-two .bannerTwo-form .item_2{left:0;padding-left:20px;}
+  .banner-one form .item_1,
+  .banner-one form .item_1{display:none;}
+  .banner-one form::after,
+  .banner-one form .item_3,
+  .left_banner-two .bannerTwo-form::after{display:none;}
+  .banner-one form .item_2{width: 50%;}
+  .banner-one form,
+  .left_banner-two .bannerTwo-form{font-size: 14px;height: 55px;}
+  .banner-one form .item_3,
+  .banner-one form .item_3 span,
+  .banner-one form .item_2 input[type="text"]{font-size: 13px;}
+  .left_banner-two .bannerTwo-form .item_4-button a{font-size: 13px;line-height: 17px;padding: 15px 20px;}
+   .banner-one form .item_4 a{padding: 0px 15px;line-height: 50px;}
+   .banner-one form .item_3 i{padding-right: 10px;}
+   .about-us-rapper .right-about-two .small, .dream-job2 .text-center .top-heading {font-size: 11px;}
+   .choose-us-heading .span{font-size: 11px;}
+   .subscriber-content-right form input{padding: 0;}
+   .subscriber-content-right form .custom_btn{padding: 12px 24px;font-size: 11px;}
+   .blog-main-content .card-body .blog-item1{font-size: 12px;}
+  .banner-one .hero-heading {font-size: 28px;line-height: 45px;}
+.nice-select{padding: 0;margin: 0;font-size: 13px;}
+.right-about .heading-2 {font-size: 21px;}
+.right-about p{font-size: 14px; line-height: 25px;}
+.choose-us-heading p{font-size: 14px; line-height: 25px;}
+.right-choose-content{display: none;}
+.testimonial-rapper,.testimonial-content{background: none;}
+.testimonial-item-inner .name h4{font-size: 16px;}
+.testimonial-item-inner .details p,
+.apps_content-left p,
+.footer-one_1 p,
+.customer_content p,
+.banner-three-rapper p,
+.join-Company .right-side .item1 span,
+.banner-two-rapper p,
+.join-Company .right-side .item3 p,
+.left-choose-content .accordion-body,
+.left-choose-content .accordion-button::after,
+.left-choose-content .accordion-button:not(.collapsed)::after,
+.testimonial-item-inner .designation h5{font-size: 14px; line-height: 25px;}
+.apps_content-left span{font-size: 13px;}
+.apps_content-left h2{font-size: 25px;line-height: 38px;}
+.customer_content h2{width: 100%;}
+.footer-one_2 h4{font-size: 18px;}
+.footer-one_2 ul li a{padding-bottom: 15px;}
+.banner-three-rapper .form-3 .location,
+.banner-three-rapper .form-3::after,
+.left_banner-two .bannerTwo-form .item_3-location{display: none;}
+.left_banner-two .bannerTwo-form .item_2{width:56%;}
+.dream-job2 .text-center .heading-text3{min-width: 100%;}
+.left-choose-content .accordion-button,
+.about-us-rapper .right-about-two p:nth-child(4),
+.about-us-rapper .right-about-two p:nth-child(3){font-size: 14px;line-height: 30px;}
+#testimonial_slider-two .bi-chevron-right{right: 20%;}
+.banner-two-rapper{padding: 0;}
+.banner-three-rapper .form-3 .placeholder{width: 40%;}
+.join-Company .right-side .item2 h3,
+.home-blog-three .blog-heading h3{font-size: 25px;line-height: 28px;}
+button.item1{font-size: 16px;line-height: 3rem;}
+#collapse1, #collapse2, #collapse3{font-size: 14px;}
+.testimonial-slider-Three .item-rapper .item3 .right-side span,
+.testimonial-slider-Three .item-rapper .item3 .right-side h5{font-size: 13px;}
+.dreamitem-1 a{font-size: 15px;}
+.blog-main-content .card-body h6{ font-size: 15px;line-height: 27px;}
+.left-about .pic1{max-width: 100%;}
+.choose-us-heading ul li a{font-size: 13px;}
+.footer-one_2 ul li a{font-size: 15px;}
+#our_team_slider i.bi-chevron-right,#our_team_slider i.bi-chevron-left{top: -77px;}
+.span-one,.span-two,.span-three{font-size:15px;}
+.left-list .job-range strong,
+.left-list .experience strong,
+.feature-job-list-rapper .left-list .job-type span{font-size: 20px}
+.list-company img{max-width: 30%;}
+.job-list-heading,
+.job-list-name{flex-direction: column;}
+.right-job-list .job-list-1 .job-list-name h4{
+  padding-top: 20px;}
+.right-job-list .job-list-1 .job-list-name span{padding: 10px;}
+ .job-list-name .job-apply{padding-top: 20px;}
+ .job-details-right .job-list-details ul li,
+ .job-details-right .job-list-details p{font-size: 15px;line-height: 25px;}
+ #recent-job-slider .recent-job-item{margin:0;box-shadow:none;}
+ .candidates-details-right .Candidate-contact a{margin-top:20px;}
+ .right_banner .banner-img3,
+ .left-about-one .pic-four,
+ .left-about-one .pic-three,
+ .about-us-rapper .shape-6,
+ .about-us-rapper .shape-5,
+ .about-us-rapper .shape-7,
+ .left-about-three img:nth-child(2),
+ .left-about-three img:nth-child(3),
+ .left-about-three img:nth-child(4),
+ .why-choose-us-rapper .shape-5,
+ .left-about-two img:nth-child(4),
+ .left-about-two img:nth-child(2),
+ .left-about-two img:nth-child(3),
+ .feature-job-2 .job-1:after,
+ .left-about-us img:nth-child(4),
+ .about-three-rapper .form-3 .item_1,
+ .about-three-rapper .form-3 .location,
+ .right-choose-content-three img:nth-child(4),
+ .right-choose-content-three img:nth-child(5),
+ .right-choose-content-three img:nth-child(2),
+ .right-choose-content-three img:nth-child(3),
+ .right_banner .banner-img1{display:none!important;}
+ .feature-job-2 .job-1 .job-type-two ul li{margin-bottom:15px;}
+ #testimonial_slider-two .bi-chevron-left{left:25%;}
+ .about-three-rapper .form-3 .button{padding-left:0px;}
+ .about-three-rapper .form-3 .button a{padding: 20px 10px;font-size: 14px;}
+ .about-three-rapper .form-3 .placeholder{left: 0;}
+ .about-three-rapper h1 {font-size: 25px;line-height: 48px;}
+}
+/*(max-width: 575px)*/
